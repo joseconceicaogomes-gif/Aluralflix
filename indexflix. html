@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AluraFlix</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AluraFlix</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
+  <header>ALURAFLIX</header>
 
-<body> <!--Inicio, corpo do documento-->
-<header>ALURAFLIX</header>
-<section class="chamada">
-<div class="chamada-texto">
-<h1>COMPREI CASA NA FAVELA e BANDlDOS NÃO GOSTARAM! GTA RP (Paulinho o LOKO)</h1>
-<p>#PAULINHOLOUCO</p>
-</div>
+  <section class="chamada">
+    <div class="chamada-texto">
+      <h1>COMPREI CASA NA FAVELA e BANDIDOS NÃO GOSTARAM! GTA RP (Paulinho o LOKO)</h1>
+      <p>#PAULINHOLOUCO</p>
+    </div>
+    <div class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Ev6LRDs46zQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
 
-<div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6mLHqjyKbqA?si=riICVae7hDwLWY1q" title="YouTube video player" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-</section>
+  <section class="recomendacoes">
+    <h2>Outras recomendações</h2>
+    <div class="outras-recomendacoes">
+      <a href="https://www.youtube.com/watch?v=oFN1_uvmf7o" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/oFN1_uvmf7o/maxresdefault.jpg" alt="VIREI ADM e ZOEI STREAMERS AO VIVO no GTA RP! (Paulinho o LOKO)" />
+      </a>
 
-<!--Carrossel de imagens-->
-<section class="recomendacoes">
-<h2>Outras recomendações</h2>
-<div class="outras-recomendacoes">
+      <a href="https://www.youtube.com/watch?v=fW7VzcLL22s" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/fW7VzcLL22s/maxresdefault.jpg" alt="VIREI ADM e ZOEI STREAMERS AO VIVO no GTA RP! (Paulinho o LOKO)" />
+      </a>
 
-<a href="https://www.youtube.com/watch?v=HZ7x9WG3pE8">
-<img src="https://img.youtube.com/vi/HZ7x9WG3pE8/maxresdefault.jpg" />
-</a>
-<a href="https://www.youtube.com/watch?v=X-rVKyqV1JE">
-<img src="https://img.youtube.com/vi/X-rVKyqV1JE/maxresdefault.jpg" />
-</a>
-<a href="https://www.youtube.com/watch?v=UOh6L7fhCW0">
-<img src="https://img.youtube.com/vi/UOh6L7fhCW0/maxresdefault.jpg" />
-</a>
-<a href="https://www.youtube.com/watch?v=N84TDkRoG0o">
-<img src="https://img.youtube.com/vi/N84TDkRoG0o/maxresdefault.jpg" />
-</a>
-<a href="https://www.youtube.com/watch?v=QP2QG43VNXo">
-<img src="https://img.youtube.com/vi/QP2QG43VNXo/maxresdefault.jpg" />
-</a>
-</div>
-</section>
+      <a href="https://www.youtube.com/watch?v=HZ7x9WG3pE8" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/HZ7x9WG3pE8/maxresdefault.jpg" alt="Outro vídeo do Paulinho o LOKO" />
+      </a>
 
-<footer>
-<h4>Desenvolvido por Viviane</h4>
-</footer>
+      <a href="https://www.youtube.com/watch?v=X-rVKyqV1JE" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/X-rVKyqV1JE/maxresdefault.jpg" alt="Outro vídeo do Paulinho o LOKO" />
+      </a>
 
-</body><!--Fim, corpo do documento-->
+      <a href="https://www.youtube.com/watch?v=nw2Ot1NH2_E" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/nw2Ot1NH2_E/maxresdefault.jpg" alt="Outro vídeo do Paulinho o LOKO" />
+      </a>
+    </div>
+  </section>
 
+  <footer>
+    <h4>Desenvolvido por Viviane</h4>
+  </footer>
+</body>
 </html>
